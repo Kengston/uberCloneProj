@@ -9,7 +9,7 @@ header {
 nav {
     height: 50px;
     background-color: #212121;
-    
+
 }
 
 .menu {
@@ -30,7 +30,7 @@ nav {
 .menu .menu_item {
     border-right: 2px dotted black;
     padding-right: 28px;
-    
+
 }
 
 .subheader {
@@ -140,7 +140,7 @@ nav {
     font-weight: 400;
     font-size: 18px;
     color: #ffffff;
-} 
+}
 
 .reasons {
     margin-top: 30px;
@@ -185,7 +185,7 @@ nav {
     border-radius: 50%;
     text-align: center;
     padding-top: 23px;
-    
+
 }
 
 .reasons .reasons_text {
@@ -244,5 +244,15 @@ nav {
     text-align: center;
     text-transform: none;
     color: #222222;
+}
+
+.mobileUber .col {
+    padding-right: 67px;
+    padding-top: 19px;
+}
+
+.mobileUber .col  img{
+    width: 320px;
+    height: 280px;
 }
 
