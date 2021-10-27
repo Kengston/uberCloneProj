@@ -1,68 +1,50 @@
 * {
-    font-family: 'Roboto', sans-serif;
-}
+  font-family: "Roboto", sans-serif; }
 
 header {
-    position: relative;
-}
+  position: relative; }
 
 nav {
-    height: 50px;
-    background-color: #212121;
-
-}
+  height: 50px;
+  background-color: #212121; }
 
 .menu {
-    display: flex;
-    justify-content: space-between;
-    padding: 13px 70px;
-    margin: 0;
-    list-style-type: none;
-}
-
-.menu .menu_link {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none; }
+  .menu .menu_link {
     color: #ffffff;
     font-weight: 300;
     font-size: 15px;
-    line-height: 15px;
-}
-
-.menu .menu_item {
+    line-height: 15px; }
+  .menu .menu_item {
     border-right: 2px dotted black;
-    padding-right: 28px;
-
-}
+    padding-right: 28px; }
 
 .subheader {
-    position: absolute;
-    width: 100%;
-    height: 84px;
-    background-color: rgba(0, 0, 0, .6);
-}
-
-.subheader .subheader_logo {
+  position: absolute;
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6); }
+  .subheader .subheader_logo {
     display: block;
     max-width: 100%;
-    margin-top: 16px;
-}
-
-.subheader .subheader_official {
+    margin-top: 16px; }
+  .subheader .subheader_official {
     margin-top: 6px;
     opacity: 0.5;
     font-weight: 400;
     font-size: 13px;
-    color: #FFFFFF;
-}
-
-.subheader .subheader_call {
+    color: #FFFFFF; }
+  .subheader .subheader_call {
     color: #ffffff;
     font-size: 12px;
     font-weight: 300;
     margin-top: 19px;
-    text-align: right;
-}
-
-.subheader .subheader_phone {
+    text-align: right; }
+  .subheader .subheader_phone {
     display: block;
     margin-top: 8px;
     color: #ffffff;
@@ -70,10 +52,8 @@ nav {
     font-weight: 400;
     text-transform: uppercase;
     text-align: right;
-    line-height: 12px;
-}
-
-.subheader .subheader_btn {
+    line-height: 12px; }
+  .subheader .subheader_btn {
     margin-top: 19px;
     width: 172px;
     height: 46px;
@@ -85,16 +65,13 @@ nav {
     color: #FFFFFF;
     font-size: 14px;
     font-weight: 400;
-    text-transform: uppercase;
-}
+    text-transform: uppercase; }
 
 .promo {
-    min-height: 800px;
-    background: url(../img/uber_bg.png) center center/cover no-repeat;
-    padding: 150px 0 135px 0;
-}
-
-.promo .promo_header {
+  min-height: 800px;
+  background: url(../img/uber_bg.png) center center/cover no-repeat;
+  padding: 150px 0 135px 0; }
+  .promo .promo_header {
     font-weight: 700;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -102,10 +79,8 @@ nav {
     line-height: 60px;
     margin: 0;
     margin-top: 22px;
-    text-align: center;
-}
-
-.promo .promo_subheader {
+    text-align: center; }
+  .promo .promo_subheader {
     font-weight: 700;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -113,19 +88,15 @@ nav {
     line-height: 36px;
     margin: 0;
     margin-top: 22px;
-    text-align: center;
-}
-
-.promo .promo_descr {
+    text-align: center; }
+  .promo .promo_descr {
     color: #ffffff;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
     text-align: center;
-    margin-top: 23px;
-}
-
-.promo .promo_btn {
+    margin-top: 23px; }
+  .promo .promo_btn {
     display: block;
     margin: 118px auto 0 auto;
     width: 259px;
@@ -134,97 +105,75 @@ nav {
     border: none;
     border-radius: 4px;
     background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
-
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
     text-transform: uppercase;
     font-weight: 400;
     font-size: 18px;
-    color: #ffffff;
-}
+    color: #ffffff; }
 
 .reasons {
-    margin-top: 30px;
-}
-
-.reasons .rectangle {
+  margin-top: 30px; }
+  .reasons .rectangle {
     width: 115px;
     height: 27px;
     background: #000000;
-
     position: absolute;
-
     font-weight: normal;
     font-size: 11px;
     line-height: 11px;
     text-align: center;
     text-transform: uppercase;
     padding-top: 8px;
-    color: #FFFFFF;
-}
-
-.reasons .reasons_8 {
+    color: #FFFFFF; }
+  .reasons .reasons_8 {
     margin-top: 60px;
     font-style: normal;
     font-weight: bold;
     font-size: 38px;
     line-height: 48px;
     text-transform: uppercase;
-    color: #222222;
-}
-
-.reasons .reasons_item {
+    color: #222222; }
+  .reasons .reasons_item {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    grid-gap: 20px;
-}
-
-.reasons .reason_png {
+    grid-gap: 20px; }
+  .reasons .reason_png {
     width: 116px;
     height: 116px;
     background: #1EACC7;
     border-radius: 50%;
     text-align: center;
-    padding-top: 23px;
-
-}
-
-.reasons .reasons_text {
-    font-family: Roboto;
+    padding-top: 23px; }
+  .reasons .reasons_text {
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
     line-height: 21px;
-    width: 350px
-}
-
-.reasons .reasons_text span {
-    color: #1EACC7;
-    font-size: 17px;
-    line-height: 21px;
-    font-weight: 500;
-}
+    width: 350px; }
+    .reasons .reasons_text span {
+      color: #1EACC7;
+      font-size: 17px;
+      line-height: 21px;
+      font-weight: 500; }
 
 .mobileUber {
-    margin-top: 80px;
-}
-
-.mobileUber .rectangle {
+  margin-top: 80px;
+  min-height: 800px;
+  background: url(../img/mobile_bg.png) center center/cover no-repeat;
+  padding: 60px 0 80px 0; }
+  .mobileUber .rectangle {
     width: 115px;
     height: 27px;
     background: #000000;
-
     position: absolute;
-
     font-weight: normal;
     font-size: 11px;
     line-height: 11px;
     text-align: center;
     text-transform: uppercase;
     padding-top: 8px;
-    color: #FFFFFF;
-}
-
-.mobileUber .mobile_Uber_h  h1{
+    color: #FFFFFF; }
+  .mobileUber .mobile_Uber_h h1 {
     margin-top: 60px;
     font-style: normal;
     font-weight: bold;
@@ -232,27 +181,51 @@ nav {
     line-height: 48px;
     text-transform: uppercase;
     text-align: center;
-    color: #222222;
-}
-
-.mobileUber .order {
-    font-family: Roboto;
+    color: #222222; }
+  .mobileUber .order {
     font-style: normal;
     font-weight: 300;
     font-size: 17px;
     line-height: 21px;
     text-align: center;
     text-transform: none;
-    color: #222222;
-}
-
-.mobileUber .col {
+    color: #222222; }
+  .mobileUber .col {
     padding-right: 67px;
-    padding-top: 19px;
-}
+    padding-top: 19px; }
+    .mobileUber .col .mobile_Container {
+      position: relative; }
+      .mobileUber .col .mobile_Container img {
+        width: 320px;
+        height: 280px; }
+      .mobileUber .col .mobile_Container .mobile_Container_text {
+        position: absolute;
+        color: white;
+        width: 297px;
+        height: 62px;
+        font-size: 24px;
+        line-height: 31px;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        top: 30%;
+        left: 5%; }
+        .mobileUber .col .mobile_Container .mobile_Container_text .mobile_Container_plus {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          top: 130px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 26px;
+          height: 26px;
+          background-color: #000000;
+          margin: 0 auto;
+          border-radius: 100%;
+          cursor: pointer; }
+          .mobileUber .col .mobile_Container .mobile_Container_text .mobile_Container_plus img {
+            width: 18px;
+            height: 18px; }
 
-.mobileUber .col  img{
-    width: 320px;
-    height: 280px;
-}
-
+/*# sourceMappingURL=style.css.map */
