@@ -228,4 +228,55 @@ nav {
             width: 18px;
             height: 18px; }
 
+.chooseUber {
+  min-height: 900px;
+  background: url(../img/Black_bg.png) top no-repeat, url(../img/Light_bg.png) bottom no-repeat; }
+  .chooseUber .rectangle {
+    width: 115px;
+    height: 27px;
+    background: #ffffff;
+    position: absolute;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 80px;
+    padding-top: 8px;
+    color: black; }
+  .chooseUber .mobile_Uber_h h1 {
+    margin-top: 160px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white; }
+  .chooseUber .order {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: none;
+    color: white; }
+  .chooseUber .img_mobile {
+    margin-top: 30px;
+    width: 759px;
+    height: 480px; }
+  .chooseUber .span_mobile {
+    position: absolute;
+    width: 327px;
+    height: 49px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #222222;
+    margin-top: 530px; }
+
 /*# sourceMappingURL=style.css.map */
