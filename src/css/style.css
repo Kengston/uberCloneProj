@@ -279,4 +279,108 @@ nav {
     color: #222222;
     margin-top: 530px; }
 
+.require {
+  padding: 68px 0 84px 0; }
+  .require .rectangle {
+    width: 115px;
+    height: 27px;
+    background: #000000;
+    position: absolute;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 8px;
+    color: #FFFFFF; }
+  .require .title {
+    margin-top: 60px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #222222; }
+  .require .require_block {
+    margin: 33px 0; }
+  .require .require_title {
+    color: #1ca8c3;
+    font-size: 22px;
+    font-weight: 400; }
+  .require .require_descr {
+    color: #1ca8c3;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 24px; }
+  .require .require_list {
+    list-style-type: none;
+    padding-left: 50px;
+    margin-top: 22px; }
+    .require .require_list li {
+      font-size: 17px;
+      font-weight: 300;
+      line-height: 24px;
+      margin-bottom: 10px; }
+      .require .require_list li:before {
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        transform: translate(-5px, -2px);
+        width: 21px;
+        height: 20px;
+        background: url("../icons/check_blue.png") center center/cover no-repeat; }
+  .require .warning .require_title {
+    color: #FF5656; }
+  .require .warning .require_list li:before {
+    background: url("../icons/check_red.png") center center/cover no-repeat; }
+
+.worldAll {
+  min-height: 720px;
+  background: url(../img/world_bg.png) center center/cover no-repeat; }
+  .worldAll .rectangle {
+    width: 115px;
+    height: 27px;
+    background: #ffffff;
+    position: absolute;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 80px;
+    padding-top: 8px;
+    color: black; }
+  .worldAll .mobile_Uber_h h1 {
+    margin-top: 160px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white; }
+  .worldAll .order {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: none;
+    color: white; }
+  .worldAll .span_mobile {
+    position: absolute;
+    width: 327px;
+    height: 49px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 68px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #1FBAD6;
+    margin-top: 650px;
+    transform: translate(-65px, -2px); }
+
 /*# sourceMappingURL=style.css.map */
